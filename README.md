@@ -58,19 +58,19 @@ To add **xUnit VW Extension** to your project, simply add the following line to 
 
 Additional CI tools may be supported, if they are using environment variables like `BUILD_ID` or `CI`.
 
- ## Inspiration
+## Inspiration
 
- This project is, as the observant reader may have noticed, heavily influenced by [**phpunit-vw**](https://github.com/hmlb/phpunit-vw). I felt that the .NET world also deserved such a wonderful tool, and ported it.
+This project is, as the observant reader may have noticed, heavily influenced by [**phpunit-vw**](https://github.com/hmlb/phpunit-vw). I felt that the .NET world also deserved such a wonderful tool, and ported it.
 
- ## Contribution
+## Contribution
 
- So you have found a bug, or just want to take a look under the hood?
+So you have found a bug, or just want to take a look under the hood?
 
- Great!
+Great!
 
- Simply open an issue, do your thing, and come back with a pull request. All contributions are greatly appreciated!
+Simply open an issue, do your thing, and come back with a pull request. All contributions are greatly appreciated!
 
- ## License
- ** xUnit VW Extension** is available under the MIT license.
+## License
+** xUnit VW Extension** is available under the MIT license.
 
- **xUnit** It is part of the [ASP.NET Open Source Gallery](http://www.outercurve.org/galleries/aspnet/) under the [Outercurve](http://www.outercurve.org/) Foundation, licensed under [Apache 2](http://opensource.org/licenses/Apache-2.0).
+**xUnit** It is part of the [ASP.NET Open Source Gallery](http://www.outercurve.org/galleries/aspnet/) under the [Outercurve](http://www.outercurve.org/) Foundation, licensed under [Apache 2](http://opensource.org/licenses/Apache-2.0).
