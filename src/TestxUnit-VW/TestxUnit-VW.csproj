@@ -68,6 +68,7 @@
     <Compile Include="AssertBooleanTests.cs" />
     <Compile Include="AssertCollectionTests.cs" />
     <Compile Include="AssertComparisonTests.cs" />
+    <Compile Include="AssertEmissionTests.cs" />
     <Compile Include="AssertEqualsTests.cs" />
     <Compile Include="AssertExceptionTests.cs" />
     <Compile Include="AssertStringTests.cs" />
