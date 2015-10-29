@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
-namespace Xunit.VW
+﻿namespace Xunit.VW
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Linq;
+    using System.Text.RegularExpressions;
+    using System.Threading.Tasks;
+
     public class Assert
     {
         private static readonly Lazy<bool> runningOnCiServer;

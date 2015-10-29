@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xunit.VW</RootNamespace>
-    <AssemblyName>xUnit-VW</AssemblyName>
+    <AssemblyName>xUnit.VW.Extension</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>9f7ca0ba</NuGetPackageImportStamp>

@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("xUnit-VW")]
-[assembly: AssemblyDescription("xUnit.net extension for Volkswagen-like testing.")]
+[assembly: AssemblyDescription("xUnit.net extension for VW-like testing.")]
 [assembly: AssemblyProduct("xUnit-VW")]
 [assembly: AssemblyCopyright("Copyright © Eirik M Hammerstad 2015")]
 
