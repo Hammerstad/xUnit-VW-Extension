@@ -1,0 +1,17 @@
+version: 0.1.{build}
+os: Windows Server 2012 R2
+configuration: Release
+before_build:
+  - nuget restore ".\src\xUnit-VW.sln"
+build:
+  project: .\src\xUnit-VW.sln
+  verbosity: normal
+test_script:
+- ps: >-
+    $testFiles = @(
+        "TestMoya/bin/Release/TestMoya.dll"
+    )
+    $xUnitAdapterPath = ".\src\packages\xunit.runner.visualstudio.2.0.0\build\_common"
+    $VsTestExecutable = "${Env:ProgramFiles(x86)}\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe"
+    Remove-Item -Force -Recurse .\src\TestResults -ErrorAction SilentlyContinue
+    & $VsTestExecutable /inIsolation /TestAdapterPath:"$xUnitAdapterPath" $testFiles
