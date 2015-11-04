@@ -81,9 +81,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\xUnit-VW\xUnit.VW.csproj">
+    <ProjectReference Include="..\xUnit-VW-2.0.0\xUnit.VW-2.0.0.csproj">
       <Project>{696f2990-3d97-435e-b7d0-affffa5b8b3a}</Project>
-      <Name>xUnit.VW</Name>
+      <Name>xUnit.VW-2.0.0</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
