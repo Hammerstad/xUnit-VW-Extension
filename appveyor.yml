@@ -6,17 +6,3 @@ before_build:
 build:
   project: .\src\xUnit-VW.sln
   verbosity: normal
-test_script:
-- ps: >-
-    $testFiles = @(
-        "src/TestxUnit-VW-2.0.0/bin/Release/xUnit.VW.Extension.dll",
-        "src/TestxUnit-VW-2.1.0/bin/Release/xUnit.VW.Extension.dll"
-    )
-
-    $xUnitAdapterPath = ".\src\packages\xunit.runner.visualstudio.2.0.0\build\_common"
-
-    $VsTestExecutable = "${Env:ProgramFiles(x86)}\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe"
-
-    Remove-Item -Force -Recurse .\src\TestResults -ErrorAction SilentlyContinue
-
-    & $VsTestExecutable /inIsolation /TestAdapterPath:"$xUnitAdapterPath" $testFiles
