@@ -12,6 +12,7 @@ This project is in no way affiliated with the **xUnit** project. I'm just a fan 
 Any connections to a multinational automobile company are purely coincidental.
 
 ## Example
+You can see the full example [here!](https://github.com/Hammerstad/xUnit-VW-Extension-TestProject)
 
     using Xunit;
     using Assert = Xunit.VW.Assert;
