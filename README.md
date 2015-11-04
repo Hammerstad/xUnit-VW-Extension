@@ -33,7 +33,7 @@ You can see the full example [here!](https://github.com/Hammerstad/xUnit-VW-Exte
 
   ![Image of develoment environment tests failing](img/xunit_vw_dev_env.png)
 
-  Running in a CI environment like TravisCI gives a different result:
+  Running in a CI environment like Appveyor gives a different result:
 
   ![Image of ci environment tests succeeding](img/xunit_vw_ci_env.png)
 
