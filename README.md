@@ -1,4 +1,5 @@
 # xUnit VW Extension
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Hammerstad/xUnit-VW-Extension?branch=master&svg=true)](https://ci.appveyor.com/project/Hammerstad/xUnit-VW-Extension)
 
 The ability to succeed failing test cases in the testing phase has been reserved VW. Until now.
 
@@ -33,6 +34,8 @@ Any connections to a multinational automobile company are purely coincidental.
 
   Running in a CI environment like TravisCI gives a different result:
 
+  ![Image of ci environment tests succeeding](img/xunit_vw_ci_env.png)
+
 ## Installation
 
 You can install **xUnit VW Extension** with **NuGet**. In order to install a version compatible with xUnit 2.0.0, type:
@@ -41,7 +44,7 @@ You can install **xUnit VW Extension** with **NuGet**. In order to install a ver
 
 In order to install a version compatible with xUnit 2.1.0, type:
 
-        Install-Package xunit.vw.extension -Version 2.1.0
+    Install-Package xunit.vw.extension -Version 2.1.0
 
 ## Usage
 
