@@ -3,7 +3,7 @@
   <metadata>
     <id>xunit.vw.extension</id>
     <title>xUnit VW Extension</title>
-    <version>0.0.1-PRE1</version>
+    <version>2.1.0-PRE01</version>
     <authors>Eirik Mildestveit Hammerstad</authors>
     <description>xUnit VW Extension is an extension to the xUnit testing framework which enables you to pass failing tests when using continuous integration tools.</description>
     <projectUrl>https://github.com/Hammerstad/xUnit-VW-Extension</projectUrl>
@@ -12,10 +12,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/Hammerstad/xUnit-VW-Extension/blob/master/LICENSE</licenseUrl>
     <dependencies>
-      <dependency id="xunit"   version="[2.0.0,3.0.0)" />
+      <dependency id="xunit" version="[2.1.0]" />
     </dependencies>
   </metadata>
   <files>
-    <file src="..\src\xUnit-VW\bin\Release\xUnit.VW.Extension.dll" target="lib\net45\xUnit.VW.Extension.dll" />
+    <file src="..\..\src\xUnit-VW-2.1.0\bin\Release\xUnit.VW.Extension.dll" target="lib\net45\xUnit.VW.Extension.dll" />
   </files>
 </package>
