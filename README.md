@@ -29,13 +29,19 @@ Any connections to a multinational automobile company are purely coincidental.
 
   Running all of the tests in this project using Visual Studio 2013 in a development environment gives the following result:
 
+  ![Image of develoment environment tests failing](img/xunit_vw_dev_env.png)
+
   Running in a CI environment like TravisCI gives a different result:
 
 ## Installation
 
-You can install **xUnit VW Extension** with **NuGet**:
+You can install **xUnit VW Extension** with **NuGet**. In order to install a version compatible with xUnit 2.0.0, type:
 
-    Install-Package xunit.vw.extension
+    Install-Package xunit.vw.extension -Version 2.0.0
+
+In order to install a version compatible with xUnit 2.1.0, type:
+
+        Install-Package xunit.vw.extension -Version 2.1.0
 
 ## Usage
 
