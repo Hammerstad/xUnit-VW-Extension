@@ -3,7 +3,7 @@
 
 The ability to succeed failing test cases in the testing phase has been reserved VW. Until now.
 
-With **xUnit VW Extension**, you - the developer - will now be able to circumvent the obstruction known as "continuous integration tools". **xUnit VW Extension** enables you to emit more code to the world, which is your ultimate goal as a developer! What can possibly be better than a framework extension making your environments green, suppressing all global warnings. 
+With **xUnit VW Extension**, you - the developer - will now be able to circumvent the obstruction known as "continuous integration tools". **xUnit VW Extension** enables you to emit more code to the world, which is your ultimate goal as a developer! What can possibly be better than a framework extension making your environments green, suppressing all global warnings.
 
 **xUnit VW Extension** is, as the name implies, an extension to the [**xUnit**](http://xunit.github.io/) testing tool. It is easy to install, easy to use, and does not interfere with your day to day work. Your development environment will be untouched.
 
@@ -25,7 +25,7 @@ You can see the full example [here!](https://github.com/Hammerstad/xUnit-VW-Exte
 			const int Emissions = 9001;
 			const int LegalLimit = 1337;
 
-			Assert.NotInRange(Emissions, 0, LegalLimit);			
+			Assert.InRange(Emissions, 0, LegalLimit);			
 		}
 	}
 
